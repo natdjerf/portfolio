@@ -268,29 +268,23 @@ th {
 
   font-family: 'Pier Sans';
 
-	src: url('../fonts/pier-regular.eot');
+	/*src: url('../fonts/pier-regular.otf');*/
 	src:
-		local('Pier Sans'),
-		local('Pier Sans'),
-		url('fonts/pier-regular.otf')
+		url('../fonts/pier-regular.otf')
 		format('opentype');
 
   font-family: 'BIG JOHN';
 
-	src: url('../fonts/BIG-JOHN.eot');
+	/*src: url('../fonts/BIG-JOHN.otf');*/
 	src:
-		local('BIG JOHN'),
-		local('BIG JOHN'),
-		url('fonts/BIG-JOHN.otf')
+		url('../fonts/BIG-JOHN.otf')
 		format('opentype');
 
   font-family: 'Slim Joe';
 
-	src: url('../fonts/Slim-Joe.eot');
+	/*src: url('../fonts/Slim-Joe.otf');*/
 	src:
-		local('Slim Joe'),
-		local('Slim Joe'),
-		url('fonts/Slim-Joe.otf')
+		url('../fonts/Slim-Joe.otf')
 		format('opentype');
 
 }
