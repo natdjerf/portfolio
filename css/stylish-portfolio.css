@@ -30,7 +30,7 @@ body {
 }
 
 .landing h1 {
-    margin-left: 100px;
+    margin-left: 8%;
     padding: 0;
     font-family: "Slim Joe";
     font-size: 4.5em;
@@ -38,6 +38,10 @@ body {
     text-transform: uppercase;
     }
 
+.landing a {
+  color: #999;
+  margin-left: 20%;
+}
 /* Custom Button Styles */
 
 .btn-dark {
@@ -171,17 +175,14 @@ hr.small {
     -o-background-size: cover;
 }
 
-.scroll-arrow {
-    margin-left: 100px;
-}
+
 
 /* About */
 
 .about {
-    height: 305px;
     padding: 50px 0;
-    margin-left: 15%;
-    margin-right: 15%;
+    /*margin-left: 15%;
+    margin-right: 15%;*/
 }
 
 .about h2{
@@ -215,7 +216,7 @@ hr.small {
 .work {
     display: table;
     width: 100%;
-    height: 300px;
+    height: 200px;
     color: #fff;
     background: url(../img/coffee-shop.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -227,7 +228,7 @@ hr.small {
 .things {
     display: table;
     width: 100%;
-    height: 300px;
+    height: 200px;
     color: #fff;
     background: url(../img/books.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;

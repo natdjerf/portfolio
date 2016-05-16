@@ -268,7 +268,7 @@ th {
 
   font-family: 'Pier Sans';
 
-	src: url('fonts/pier-regular.eot');
+	src: url('../fonts/pier-regular.eot');
 	src:
 		local('Pier Sans'),
 		local('Pier Sans'),
@@ -277,7 +277,7 @@ th {
 
   font-family: 'BIG JOHN';
 
-	src: url('fonts/BIG-JOHN.eot');
+	src: url('../fonts/BIG-JOHN.eot');
 	src:
 		local('BIG JOHN'),
 		local('BIG JOHN'),
@@ -286,7 +286,7 @@ th {
 
   font-family: 'Slim Joe';
 
-	src: url('fonts/Slim-Joe.eot');
+	src: url('../fonts/Slim-Joe.eot');
 	src:
 		local('Slim Joe'),
 		local('Slim Joe'),
