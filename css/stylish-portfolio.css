@@ -1,3 +1,28 @@
+@font-face {
+  font-family: 'Pier Sans';
+
+	/*src: url('../fonts/pier-regular.otf');*/
+	src:
+		url('../fonts/pier-regular.otf')
+		format('opentype');
+
+  font-family: 'BIG JOHN';
+
+	/*src: url('../fonts/BIG-JOHN.otf');*/
+	src:
+		url('../fonts/BIG-JOHN.otf')
+		format('opentype');
+
+  font-family: 'Slim Joe';
+
+	/*src: url('../fonts/Slim-Joe.otf');*/
+	src:
+		url('../fonts/Slim-Joe.otf')
+		format('opentype');
+
+}
+
+
 html,
 body {
     width: 100%;

@@ -266,26 +266,6 @@ th {
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 
-  font-family: 'Pier Sans';
-
-	/*src: url('../fonts/pier-regular.otf');*/
-	src:
-		url('../fonts/pier-regular.otf')
-		format('opentype');
-
-  font-family: 'BIG JOHN';
-
-	/*src: url('../fonts/BIG-JOHN.otf');*/
-	src:
-		url('../fonts/BIG-JOHN.otf')
-		format('opentype');
-
-  font-family: 'Slim Joe';
-
-	/*src: url('../fonts/Slim-Joe.otf');*/
-	src:
-		url('../fonts/Slim-Joe.otf')
-		format('opentype');
 
 }
 
