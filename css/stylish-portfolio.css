@@ -1,24 +1,16 @@
 @font-face {
-  font-family: 'Pier Sans';
+  font-family: 'BigJohn';
+  src: url('../fonts/BigJohn.eot');
+  src: url('../fonts/BigJohn.eot?#iefix') format('embedded-opentype'), url('../fonts/BigJohn.woff2') format('woff2'),
+  url('../fonts/BigJohn.woff') format('woff'),
+  url('../fonts/BigJohn.ttf') format('truetype'), url('../fonts/BigJohn.svg') format('svg');
 
-	/*src: url('../fonts/pier-regular.otf');*/
-	src:
-		url('../fonts/pier-regular.otf')
-		format('opentype');
+  font-family: 'SlimJoe';
+  src: url('../fonts/SlimJoe.eot');
+  src: url('../fonts/SlimJoe.eot?#iefix') format('embedded-opentype'), url('../fonts/SlimJoe.woff2') format('woff2'),
+  url('../fonts/SlimJoe.woff') format('woff'),
+  url('../fonts/SlimJoe.ttf') format('truetype'), url('../fonts/BigJohn.svg') format('svg');
 
-  font-family: 'BIG JOHN';
-
-	/*src: url('../fonts/BIG-JOHN.otf');*/
-	src:
-		url('../fonts/BIG-JOHN.otf')
-		format('opentype');
-
-  font-family: 'Slim Joe';
-
-	/*src: url('../fonts/Slim-Joe.otf');*/
-	src:
-		url('../fonts/Slim-Joe.otf')
-		format('opentype');
 
 }
 
