@@ -4,14 +4,14 @@
   src: url('../fonts/BigJohn.eot?#iefix') format('embedded-opentype'), url('../fonts/BigJohn.woff2') format('woff2'),
   url('../fonts/BigJohn.woff') format('woff'),
   url('../fonts/BigJohn.ttf') format('truetype'), url('../fonts/BigJohn.svg') format('svg');
+}
 
+@font-face {
   font-family: 'SlimJoe';
   src: url('../fonts/SlimJoe.eot');
   src: url('../fonts/SlimJoe.eot?#iefix') format('embedded-opentype'), url('../fonts/SlimJoe.woff2') format('woff2'),
   url('../fonts/SlimJoe.woff') format('woff'),
-  url('../fonts/SlimJoe.ttf') format('truetype'), url('../fonts/BigJohn.svg') format('svg');
-
-
+  url('../fonts/SlimJoe.ttf') format('truetype'), url('../fonts/SlimJoe.svg') format('svg');
 }
 
 
@@ -325,12 +325,15 @@ span.portfolio-content {
 footer {
     color: #FFFFFF;
     background-color: #000000;
+    display:flex;
+    justify-content: center;
 }
 
 .social-footer {
   float: left;
-  display: block;
 }
+
+
 
 .btn-social {
     line-height: 52px;
