@@ -39,8 +39,7 @@ body {
 }
 
 .landing h1 {
-    margin-left: 8%;
-    padding: 0;
+    padding-left: 8%;
     font-family: "SlimJoe";
     font-size: 4.5em;
     font-weight: 700;
@@ -48,7 +47,7 @@ body {
     }
 
 .landing a {
-  color: #999;
+  color: #FD5400;
   margin-left: 20%;
 }
 /* Custom Button Styles */
@@ -197,7 +196,7 @@ hr.small {
 }
 
 .about h2{
-    font-family: "BIG JOHN";
+    font-family: "BigJohn";
 }
 /* skills */
 
@@ -261,10 +260,6 @@ hr.small {
     padding: 50px 0;
 }
 
-.portfolio-items-all {
-  padding-left: 100px;
-  padding-right: 100px;
-}
 
 .portfolio-item {
     margin-bottom: 30px;
@@ -272,8 +267,8 @@ hr.small {
 
 .img-portfolio {
     margin: 0 auto;
-    height: 230px;
-    width: 230px;
+    height: 33%;
+    width: 33%;
 }
 
 .img-portfolio:hover {
@@ -293,31 +288,9 @@ span.portfolio-content {
 }
 
 
-/* Call to Action */
-
-.call-to-action {
-    padding: 50px 0;
-    background: url(../img/books.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.call-to-action .btn {
-    margin: 10px;
-}
-
-/* Map */
-
-.map {
-    height: 500px;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
+/* Contact */
+.contact-email h3 {
+  font-family: "BigJohn";
 }
 
 /* Footer */
@@ -330,9 +303,18 @@ footer {
 }
 
 .social-footer {
-  float: left;
+  width: 300px;
 }
 
+.social-icons {
+  float: left;
+  width: 33%;
+}
+
+.copyright {
+  text-align: center;
+  width: 300px;
+}
 
 
 .btn-social {
