@@ -1,35 +1,29 @@
 @font-face {
   font-family: 'BigJohn';
   src: url('../fonts/BigJohn.eot');
-  src: url('../fonts/BigJohn.eot?#iefix') format('embedded-opentype'), url('../fonts/BigJohn.woff2') format('woff2'),
-  url('../fonts/BigJohn.woff') format('woff'),
-  url('../fonts/BigJohn.ttf') format('truetype'), url('../fonts/BigJohn.svg') format('svg');
+  src: url('../fonts/BigJohn.eot?#iefix') format('embedded-opentype'), url('../fonts/BigJohn.woff2') format('woff2'), url('../fonts/BigJohn.woff') format('woff'), url('../fonts/BigJohn.ttf') format('truetype'), url('../fonts/BigJohn.svg') format('svg');
 }
 
 @font-face {
   font-family: 'SlimJoe';
   src: url('../fonts/SlimJoe.eot');
-  src: url('../fonts/SlimJoe.eot?#iefix') format('embedded-opentype'), url('../fonts/SlimJoe.woff2') format('woff2'),
-  url('../fonts/SlimJoe.woff') format('woff'),
-  url('../fonts/SlimJoe.ttf') format('truetype'), url('../fonts/SlimJoe.svg') format('svg');
+  src: url('../fonts/SlimJoe.eot?#iefix') format('embedded-opentype'), url('../fonts/SlimJoe.woff2') format('woff2'), url('../fonts/SlimJoe.woff') format('woff'), url('../fonts/SlimJoe.ttf') format('truetype'), url('../fonts/SlimJoe.svg') format('svg');
 }
 
-
-html,
-body {
-    width: 100%;
-    height: 100%;
+html, body {
+  width: 100%;
+  height: 100%;
 }
 
 body {
-    font-family: "SlimJoe";
-    font-size: 16px;
+  font-family: "SlimJoe";
+  font-size: 18px;
 }
 
 .text-vertical-center {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .landing {
@@ -39,286 +33,302 @@ body {
 }
 
 .landing h1 {
-    padding-left: 8%;
-    font-family: "SlimJoe";
-    font-size: 4.5em;
-    font-weight: 700;
-    text-transform: uppercase;
-    }
+  padding-left: 8%;
+  font-family: "SlimJoe";
+  font-size: 4.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+}
 
 .landing a {
   color: #FD5400;
   margin-left: 31%;
 }
+
+h1 {
+  letter-spacing: 6px;
+}
+
 /* Custom Button Styles */
 
 .btn-dark {
-    border-radius: 0;
-    color: #fff;
-    background-color: rgba(0,0,0,0.4);
+  border-radius: 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
-.btn-dark:hover,
-.btn-dark:focus,
-.btn-dark:active {
-    color: #fff;
-    background-color: rgba(0,0,0,0.7);
+.btn-dark:hover, .btn-dark:focus, .btn-dark:active {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .btn-light {
-    border-radius: 0;
-    color: #333;
-    background-color: rgb(255,255,255);
+  border-radius: 0;
+  color: #333;
+  background-color: rgb(255, 255, 255);
 }
 
-.btn-light:hover,
-.btn-light:focus,
-.btn-light:active {
-    color: #333;
-    background-color: rgba(255,255,255,0.8);
+.btn-light:hover, .btn-light:focus, .btn-light:active {
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 /* Custom Horizontal Rule */
 
 hr.small {
-    max-width: 100px;
+  max-width: 100px;
 }
 
 /* Side Menu */
 
 #sidebar-wrapper {
-    z-index: 1000;
-    position: fixed;
-    right: 0;
-    width: 250px;
-    height: 100%;
-    margin-right: -250px;
-    overflow-y: auto;
-    background: #222;
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
+  z-index: 1000;
+  position: fixed;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  margin-right: -250px;
+  overflow-y: auto;
+  background: #222;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
 }
 
 .sidebar-nav {
-    position: absolute;
-    top: 0;
-    width: 250px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .sidebar-nav li {
-    text-indent: 20px;
-    line-height: 40px;
+  text-indent: 20px;
+  line-height: 40px;
 }
 
 .sidebar-nav li a {
-    display: block;
-    text-decoration: none;
-    color: #999;
+  display: block;
+  text-decoration: none;
+  color: #999;
 }
 
 .sidebar-nav li a:hover {
-    text-decoration: none;
-    color: #fff;
-    background: rgba(255,255,255,0.2);
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
 }
 
-.sidebar-nav li a:active,
-.sidebar-nav li a:focus {
-    text-decoration: none;
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+  text-decoration: none;
+}
+.sidebar-nav> .sidebar-brand {
+  height: 55px;
+  font-size: 18px;
+  line-height: 55px;
 }
 
-.sidebar-nav > .sidebar-brand {
-    height: 55px;
-    font-size: 18px;
-    line-height: 55px;
+.sidebar-nav> .sidebar-brand a {
+  color: #999;
 }
 
-.sidebar-nav > .sidebar-brand a {
-    color: #999;
-}
-
-.sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
-    background: none;
+.sidebar-nav> .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
 }
 
 #menu-toggle {
-    z-index: 1;
-    position: fixed;
-    top: 0;
-    right: 0;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
 #sidebar-wrapper.active {
-    right: 250px;
-    width: 250px;
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
+  right: 250px;
+  width: 250px;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
 }
 
 .toggle {
-    margin: 5px 5px 0 0;
+  margin: 5px 5px 0 0;
 }
 
 /* Header */
 
 .header {
-    display: table;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: url(../img/aspen.jpg) no-repeat center center scroll;
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(../img/aspen.jpg) no-repeat center center scroll;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
-
-
 
 /* About */
 
 .about {
-    padding: 50px 0;
-    /*margin-left: 15%;
-    margin-right: 15%;*/
+  padding: 50px 0;
 }
 
-.about h2{
-    font-family: "BigJohn";
+.about h2 {
+  font-family: "BigJohn";
 }
+
+.about p {
+  margin: 0 auto;
+  width: 70%;
+  padding: 30px 0;
+}
+
 /* skills */
 
 .bg-primary {
-    color: #000000;
-    background-color: #FFFFFF;
+  color: #000000;
+  background-color: #FFFFFF;
 }
 
-.skills {
-    padding: 50px 0;
+.skills,
+.portfolio,
+.contact-email {
+  padding: 50px 0;
 }
 
 .skills h4 {
-    font-family: "BigJohn";
+  font-family: "BigJohn";
+}
+
+.skills h2 {
+  padding-bottom: 20px;
 }
 
 .service-item {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .text-primary {
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 /* work */
 
 .work {
-    display: table;
-    width: 100%;
-    height: 200px;
-    color: #fff;
-    background: url(../img/coffee-shop.jpg) no-repeat center center scroll;
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  display: table;
+  width: 100%;
+  height: 200px;
+  color: #fff;
+  background: url(../img/coffee-book.jpg) no-repeat center center scroll;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 .things {
-    display: table;
-    width: 100%;
-    height: 200px;
-    color: #fff;
-    background: url(../img/books.jpg) no-repeat center center scroll;
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  display: table;
+  width: 100%;
+  height: 200px;
+  color: #fff;
+  background: url(../img/coffee-shop.jpg) no-repeat center center scroll;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
-
-
-
 
 /* Portfolio */
 
 .portfolio {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
-
 .portfolio-item {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .img-portfolio {
-    margin: 0 auto;
-    height: 33%;
-    width: 33%;
+  margin: 0 auto;
+  height: 50%;
+  width: 50%;
 }
 
 .img-portfolio:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
-
-span.portfolio-content {
-  color: black;
-  cursor: pointer;
-  text-align: center;
-  vertical-align: middle;
-  opacity: 0;
-}
-
-.portfolio-items-all :hover span.portfolio-content {
-  opacity: 1;
-}
-
-
 /* Contact */
-.contact-email h3 {
-  font-family: "BigJohn";
+
+#contact {
+  width: 100%;
+  color: #fff;
+  background:
+  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/rainy.jpg) no-repeat center center scroll;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.resume-link {
+  margin-top: 20px;
+  margin-bottom: 30px
+}
+
+.contact-links {
+  line-height: 2;
+}
+
+.contact-email a {
+  color: #fff;
+}
+
+.social-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  float: left;
+  width: 50%;
+}
+
+.btn-social {
+  line-height: 52px;
+  font-size: 1.9em;
+  color: #000;
 }
 
 /* Footer */
 
 footer {
-    color: #FFFFFF;
-    background-color: #000000;
-    display:flex;
-    justify-content: center;
+  color: #FFFFFF;
+  background-color: #000000;
 }
 
-.social-footer {
-  width: 300px;
-}
-
-.social-icons {
-  float: left;
-  width: 33%;
-}
 
 .copyright {
   text-align: center;
-  width: 300px;
-}
-
-
-.btn-social {
-    line-height: 52px;
-    font-size: 1.9em;
-    color: #FFFFFF;
 }

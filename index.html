@@ -46,13 +46,13 @@
         <a href="#top" onclick=$ ( "#menu-close").click();></a>
       </li>
       <li>
-        <a href="#about" onclick=$ ( "#menu-close").click();>A little bit about me.</a>
-      </li>
-      <li>
-        <a href="#portfolio" onclick=$ ( "#menu-close").click();>Portfolio</a>
+        <a href="#about" onclick=$ ( "#menu-close").click();>About</a>
       </li>
       <li>
         <a href="#skills" onclick=$ ( "#menu-close").click();>Skills</a>
+      </li>
+      <li>
+        <a href="#portfolio" onclick=$ ( "#menu-close").click();>Portfolio</a>
       </li>
       <li>
         <a href="#contact" onclick=$ ( "#menu-close").click();>Contact</a>
@@ -65,7 +65,7 @@
   <header id="top" class="header">
     <div class="landing text-vertical-center">
       <h1>Natalie Djerf</h1>
-      <a href="#about"><i class="fa fa-angle-double-down fa-3x"></i></a>
+      <a href="#about"><i class="fa fa-angle-down fa-3x"></i></a>
     </div>
   </header>
   <!-- End Header -->
@@ -74,65 +74,19 @@
   <section id="about" class="about">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center">
+        <div class="text-vertical-center">
           <h2>Oh hay.</h2>
-          <p>I’m Natalie. I’m a full stack web developer. Energetic and passionate, I love taking on a challenge, whether it’s working through a coding problem, hiking a mountain, or attempting to bake the perfect cookie. When I’m not working, you’ll find
-            me off on an adventure, dining with friends, or at the movies.</p>
+          <p>I’m Natalie. I’m a full stack web developer. Energetic and passionate, I love taking on a challenge, whether it’s working through a coding problem, hiking a mountain, or attempting to bake the perfect cookie. When I’m not working, you’ll find me off on an adventure, dining with friends, or at the movies.</p>
         </div>
       </div>
     </div>
   </section>
   <!-- End About -->
 
-  <!-- Work -->
-  <aside class="work container">
-    <div class="text-vertical-center">
-      <h1>work</h1>
-    </div>
-  </aside>
-  <!-- End Work -->
-
-  <!-- Portfolio -->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="text-center">
-          <div class="row portfolio-items-all">
-            <div class="col-xs-6 col-md-4">
-              <div class="portfolio-item">
-                <a href="http://natdjerf.github.io/js-cheese/" target="GitHub">
-                  <img class="img-portfolio img-responsive" src="img/cheese.jpg">
-                  <span class="portfolio-content"><span>More Cheese Please</span></span>
-                </a>
-              </div>
-            </div>
-            <div class="col-xs-6 col-md-4">
-              <div class="portfolio-item">
-                <a href="http://pizzabeer.github.io/filebucket-front-end/" target="GitHub">
-                  <img class="img-portfolio img-responsive" src="img/cloud.jpg">
-                  <span class="portfolio-content"><span>QLOUD</span></span>
-                </a>
-              </div>
-            </div>
-            <div class="col-xs-6 col-md-4">
-              <div class="portfolio-item">
-                <a href="http://natdjerf.github.io/mt-chirripo.ember-auth/" target="GitHub">
-                  <img class="img-portfolio img-responsive" src="img/backpack.jpg">
-                  <span class="portfolio-content"><span>Visit Mount Chirripo</span></span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Portfolio -->
-
   <!-- Things -->
   <aside class="things">
     <div class="text-vertical-center">
-      <h1>skills &amp; things.</h1>
+      <h1>skills &amp; things</h1>
     </div>
   </aside>
   <!-- End Things -->
@@ -142,7 +96,6 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-lg-10 col-lg-offset-1">
-          <h2>Technical Skills</h2>
           <div class="row">
             <div class="col-md-3 col-sm-6">
               <div class="service-item">
@@ -185,33 +138,87 @@
   </section>
   <!-- End Skills -->
 
+  <!-- Work -->
+  <aside class="work container">
+    <div class="text-vertical-center">
+      <h1>portfolio</h1>
+    </div>
+  </aside>
+  <!-- End Work -->
 
-  <!-- Contact -->
-  <div class="container contact-email">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h3>Let's get in touch.</h3>
-        <p><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:nadjerf@gmail.com">nadjerf@gmail.com</a>
-        </p>
+  <!-- Portfolio -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="text-center">
+          <div class="row portfolio-items-all">
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a href="http://natdjerf.github.io/js-cheese/" target="GitHub">
+                  <img class="img-portfolio img-responsive" src="img/cheese.jpg">
+                  <span class="portfolio-content">
+                    <p>More Cheese Please</p>
+                  </span>
+                  <!--
+                    <p>Full stack web application that allows users to design custom cheese boards. Utilizes JS, JQuery, HTML5, & CSS for front-end access to a Ruby on Rails back-end and a PostgreSQL database.</p>
+                  -->
+
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a href="http://pizzabeer.github.io/filebucket-front-end/" target="GitHub">
+                  <img class="img-portfolio img-responsive" src="img/cloud.jpg">
+                  <span class="portfolio-content"><span>QLOUD</span></span>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a href="http://natdjerf.github.io/mt-chirripo.ember-auth/" target="GitHub">
+                  <img class="img-portfolio img-responsive" src="img/backpack.jpg">
+                  <span class="portfolio-content"><span>Visit Mount Chirripo</span></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- Contact -->
+  </section>
+  <!-- End Portfolio -->
 
-  <!-- Footer -->
-  <footer>
-    <div class="container-fluid navbar-bottom" id="contact">
-      <div class="row col-md-12 navbar-center">
+<!-- Contact Details -->
+<section id="contact" class="bg-primary">
+  <div class="container contact-email">
+    <div class="row">
+      <div class="text-center">
+        <h1>Let's get in touch</h1>
+        <div class="resume-link">
+          <a href="./Natalie_Djerf_Resume_Boston_2016.pdf" target="_blank">Download Resume</a>
+        </div>
+
+        <ul class="list-unstyled contact-links">
+          <li>
+            <i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>
+            <a href="mailto:nadjerf@gmail.com">nadjerf@gmail.com</a>
+          </li>
+          <li>
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <span>Boston, MA</span>
+          </li>
+          <li>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <span>617-653-9303</span>
+          </li>
+        </ul>
+
         <div class="social-footer">
           <ul class="list-unstyled">
             <li class="social-icons">
-                <a href="https://github.com/natdjerf" target="GitHub" class="btn btn-block btn-social btn-github">
-                  <span class="fa fa-github"></span>
-                </a>
-            </li>
-            <li class="social-icons">
-              <a href="./Natalie_Djerf_Resume_Boston_2016.pdf" class="btn btn-block btn-social" target="_blank">
-                <span class="glyphicon glyphicon-save-file"></span>
+              <a href="https://github.com/natdjerf" target="GitHub" class="btn btn-block btn-social btn-github">
+                <span class="fa fa-github"></span>
               </a>
             </li>
             <li class="social-icons">
@@ -221,6 +228,18 @@
             </li>
           </ul>
         </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Contact Details -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="container-fluid navbar-bottom">
+      <div class="row col-md-12 navbar-center">
         <div class="col-md-12 copyright">
           <p>© 2016 Natalie Djerf</p>
         </div>
