@@ -39,6 +39,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 9px;
+  overflow: hidden;
 }
 
 .landing a {
@@ -47,7 +48,7 @@ body {
 }
 
 h1 {
-  letter-spacing: 6px;
+  /*letter-spacing: 6px;*/
 }
 
 /* Custom Button Styles */
@@ -226,6 +227,7 @@ hr.small {
 
 /* work */
 
+
 .work {
   display: table;
   width: 100%;
@@ -260,19 +262,73 @@ hr.small {
   padding: 50px 0;
 }
 
-.portfolio-item {
-  margin-bottom: 30px;
+.flex-child:hover {
+  opacity: .5;
 }
 
-.img-portfolio {
-  margin: 0 auto;
-  height: 50%;
-  width: 50%;
+span.portfolio-content {
+  background: rgba(0,0,0,0.5);
+  color: black;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
 }
 
-.img-portfolio:hover {
-  opacity: 0.8;
+span.portfolio-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
+
+.portfolio .flex-child:hover span.portfolio-content {
+  opacity: 1;
+}
+
+
+.flex-test {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-child {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 225px;
+  width: 225px;
+  padding: 10px;
+}
+
+.cheese {
+  background-image: url('../img/cheese.jpg');
+}
+
+.cloud {
+    background-image: url('../img/cloud.jpg');
+}
+
+.backpack {
+    background-image: url('../img/backpack.jpg');
+}
+
+
+
 /* Contact */
 
 #contact {
