@@ -232,7 +232,7 @@ hr.small {
   display: table;
   width: 100%;
   height: 200px;
-  color: #fff;
+  color: #FFFFFF;
   background: url(../img/coffee-book.jpg) no-repeat center center scroll;
   background-attachment: fixed;
   background-size: cover;
@@ -262,39 +262,11 @@ hr.small {
   padding: 50px 0;
 }
 
-.flex-child:hover {
-  opacity: .5;
-}
-
-span.portfolio-content {
-  background: rgba(0,0,0,0.5);
-  color: black;
-  cursor: pointer;
-  left: 0;
-  position: absolute;
-  top: 0;
-  opacity: 0;
-  -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms;
-}
-
-span.portfolio-content span {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.portfolio .flex-child:hover span.portfolio-content {
-  opacity: 1;
-}
-
-
-.flex-test {
+.flex-parent {
   padding: 0;
   margin: 0;
   list-style: none;
+  list-style-type: none;
 
   display: -webkit-box;
   display: -moz-box;
@@ -310,13 +282,43 @@ span.portfolio-content span {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 225px;
-  width: 225px;
+  height: 285px;
+  width: 285px;
   padding: 10px;
+  display: inline-block;
+  overflow: scroll;
+}
+
+.portfolio-content {
+  color: #FFFFFF;
+  display: table;
+  font-size: .8em;
+  height: 285px;
+  width: 285px;
+  padding: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.portfolio-content a, a:hover {
+  color: #FD5400;
+}
+
+
+.flex-parent li:hover .portfolio-content {
+    background: rgba(0,0,0,0.7);
+    opacity: 1;
 }
 
 .cheese {
-  background-image: url('../img/cheese.jpg');
+    background-image: url('../img/cheese.jpg');
+}
+
+.cheesey{
+  color: red;
 }
 
 .cloud {
@@ -391,22 +393,22 @@ footer {
 
 
 /* Media */
-/*@media (max-width: @screen-xs) {
-    h1{font-size: 10px;}
-}
-
-@media (max-width: @screen-sm) {
-    h1{font-size: 14px;}
-}*/
 
 @media screen and (max-width: 30em) {
     body {
-        font-size: 90%;
+      font-size: 90%;
     }
+    .landing h1 {
+      color: #000000;
+    }
+
 }
 
 @media screen and (max-width: 20em) {
     body {
-        font-size: 80%;
+      font-size: 80%;
+    }
+    .landing h1 {
+      color: #000000;
     }
 }
