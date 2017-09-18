@@ -1,0 +1,108 @@
+/*
+
+Breakpoints:
+$breakpoint-small-medium: 768px;
+$breakpoint-medium-large: 1024px;
+$breakpoint-medium-large: 1200px;
+
+Palette:
+$clouds: #ccd3dd;
+$ufo: #4d496e;
+
+*/
+
+@font-face {
+	font-family: "BigJohn";
+	src: url("../fonts/BigJohn.eot");
+	src: url("../fonts/BigJohn.eot?#iefix") format("embedded-opentype"), url("../fonts/BigJohn.woff2") format("woff2"), url("../fonts/BigJohn.woff") format("woff"), url("../fonts/BigJohn.ttf") format("truetype"), url("../fonts/BigJohn.svg") format("svg");
+}
+
+@font-face {
+	font-family: "SlimJoe";
+	src: url("../fonts/SlimJoe.eot");
+	src: url("../fonts/SlimJoe.eot?#iefix") format("embedded-opentype"), url("../fonts/SlimJoe.woff2") format("woff2"), url("../fonts/SlimJoe.woff") format("woff"), url("../fonts/SlimJoe.ttf") format("truetype"), url("../fonts/SlimJoe.svg") format("svg");
+}
+
+body {
+	background: url("../assets/ufo.jpg") no-repeat center center fixed;
+	background-color: #ccd3dd;
+	font-family: "SlimJoe";
+	font-size: 16px;
+}
+
+.wrapper {
+	position: absolute;
+	left: 5%;
+	top: 40%;
+	right: 5%;
+}
+
+.header {
+	font-size: 30px;
+}
+
+.about--wrapper {
+	margin-top: 40px;
+}
+
+.about--welcome,
+.contact--get-in-touch {
+	font-family: "BigJohn";
+}
+
+.about--description {
+	margin-top: 20px;
+}
+
+.contact--wrapper {
+	margin-top: 30px;
+}
+
+.contact--personal {
+	margin-top: 20px;
+}
+
+.contact--social {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.contact--icon + .contact--icon {
+	margin-left: 10px
+}
+
+svg {
+	fill: #4d496e;
+}
+
+.symbol {
+	font-family: "Montserrat"
+}
+
+@media (min-width: 732px) {
+	body {
+		background-size: cover;
+		font-size: 18px;
+	}
+
+	.header {
+		font-size: 50px;
+	}
+
+	.wrapper {
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 1024px) {
+	body {
+		background-size: cover;
+		font-size: 20px;
+	}
+
+	.header {
+		font-size: 50px;
+	}
+}
