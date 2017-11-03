@@ -8,9 +8,9 @@ Here are the contents of this compressed package:
 
   * You can add a favicon to your web page by uploading favicon.ico to Root of your  website and inserting the following HTML tag between the <head> ... </head> tags of your web page.
 
-<link rel="shortcut icon" href="favicon.ico" /> 
+<link rel="shortcut icon" href="favicon.ico" />
 
-* There are many different sized png files for use a icons for smartphones, tablets and desktop use.  
+* There are many different sized png files for use a icons for smartphones, tablets and desktop use.
 
 If you are having any problems installing your favicon we have tips on the Free Favicon blog. http://www.freefavicon.com/blog/
 
