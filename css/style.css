@@ -11,43 +11,48 @@ $ufo: #4d496e;
 
 */
 
-@font-face {
-	font-family: "BigJohn";
-	src: url("../fonts/BigJohn.eot");
-	src: url("../fonts/BigJohn.eot?#iefix") format("embedded-opentype"), url("../fonts/BigJohn.woff2") format("woff2"), url("../fonts/BigJohn.woff") format("woff"), url("../fonts/BigJohn.ttf") format("truetype"), url("../fonts/BigJohn.svg") format("svg");
-}
-
-@font-face {
-	font-family: "SlimJoe";
-	src: url("../fonts/SlimJoe.eot");
-	src: url("../fonts/SlimJoe.eot?#iefix") format("embedded-opentype"), url("../fonts/SlimJoe.woff2") format("woff2"), url("../fonts/SlimJoe.woff") format("woff"), url("../fonts/SlimJoe.ttf") format("truetype"), url("../fonts/SlimJoe.svg") format("svg");
-}
-
 body {
-	background: url("../assets/ufo.jpg") no-repeat center center fixed;
-	background-color: #ccd3dd;
-	font-family: "SlimJoe";
+	font-family: "Courier New";
 	font-size: 16px;
+	text-align: center;
 }
 
 .wrapper {
 	position: absolute;
 	left: 5%;
-	top: 40%;
+	top: 15%;
 	right: 5%;
 }
 
 .header {
-	font-size: 30px;
+	font-size: 35px;
+}
+
+.image--wrapper {
+	background-image: url("../assets/jasper-sm.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 400px;
+}
+
+.header + .image--wrapper {
+	margin-top: 20px;
 }
 
 .about--wrapper {
-	margin-top: 40px;
+	margin: 0 auto;
+	max-width: 500px;
+	text-align: justify;
+}
+
+.image--wrapper + .about--wrapper {
+	margin-top: 20px;
 }
 
 .about--welcome,
 .contact--get-in-touch {
-	font-family: "BigJohn";
+	font-family: "Courier New"
 }
 
 .about--description {
@@ -73,18 +78,22 @@ body {
 	margin-left: 10px
 }
 
-svg {
-	fill: #4d496e;
-}
-
-.symbol {
-	font-family: "Montserrat"
-}
-
-@media (min-width: 732px) {
+@media (min-width: 768px) {
 	body {
-		background-size: cover;
 		font-size: 18px;
+	}
+
+	.image--wrapper {
+		background-image: url("../assets/jasper-lg.jpg");
+		height: 500px;
+	}
+
+	.about--wrapper {
+		max-width: 700px;
+	}
+
+	.image--wrapper + .about--wrapper {
+		margin-top: 40px;
 	}
 
 	.header {
