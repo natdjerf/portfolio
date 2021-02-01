@@ -1,117 +1,92 @@
-/*
+/** @format */
 
-Breakpoints:
-$breakpoint-small-medium: 768px;
-$breakpoint-medium-large: 1024px;
-$breakpoint-medium-large: 1200px;
-
-Palette:
-$clouds: #ccd3dd;
-$ufo: #4d496e;
-
-*/
+@font-face {
+  font-family: "Maelstrom Sans";
+  src: url("../fonts/maelstrom-sans-test-bold.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
 
 body {
-	font-family: "Courier New";
-	font-size: 16px;
-	text-align: center;
+  font-family: "Oranienbaum", serif;
+  font-size: 20px;
 }
 
 .wrapper {
-	position: absolute;
-	left: 5%;
-	top: 15%;
-	right: 5%;
+  background-image: url("../assets/jasper-sm.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.content--wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 98%;
+  justify-content: space-between;
+  margin: 0 2%;
 }
 
 .header {
-	font-size: 35px;
-}
-
-.image--wrapper {
-	background-image: url("../assets/jasper-sm.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	height: 400px;
-}
-
-.header + .image--wrapper {
-	margin-top: 20px;
+  color: #db0000;
+  font-family: "Maelstrom Sans";
+  font-size: 62px;
 }
 
 .about--wrapper {
-	margin: 0 auto;
-	max-width: 500px;
-	text-align: justify;
-}
-
-.image--wrapper + .about--wrapper {
-	margin-top: 20px;
+  color: #fdfcf3;
+  max-width: 300px;
 }
 
 .about--welcome,
 .contact--get-in-touch {
-	font-family: "Courier New"
+  text-transform: uppercase;
 }
 
 .about--description {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 .contact--wrapper {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 .contact--personal {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 .contact--social {
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-	justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
 .contact--icon + .contact--icon {
-	margin-left: 10px
+  margin-left: 10px;
+}
+
+svg {
+  fill: #fdfcf3;
 }
 
 @media (min-width: 768px) {
-	body {
-		font-size: 18px;
-	}
+  body {
+    font-size: 24px;
+  }
 
-	.image--wrapper {
-		background-image: url("../assets/jasper-lg.jpg");
-		height: 500px;
-	}
+  .wrapper {
+    background-image: url("../assets/jasper-lg.jpg");
+  }
 
-	.about--wrapper {
-		max-width: 700px;
-	}
+  .content--wrapper {
+    height: 66%;
+  }
 
-	.image--wrapper + .about--wrapper {
-		margin-top: 40px;
-	}
-
-	.header {
-		font-size: 50px;
-	}
-
-	.wrapper {
-		margin: 0 auto;
-	}
+  .header {
+    font-size: 92px;
+  }
 }
 
 @media (min-width: 1024px) {
-	body {
-		background-size: cover;
-		font-size: 20px;
-	}
-
-	.header {
-		font-size: 50px;
-	}
 }
